@@ -6,7 +6,8 @@ This webpage was refactored to follow accessibility standards so that this webpa
 
 [Horiseon](/Horiseon.png "Horiseon Site")
 
-URL:
+
+URL:  https://claireeberle.github.io/accesibility-refactor/
 
 ## Installation
 
