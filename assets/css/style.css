@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* creates header for webpage */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ header {
     color: #ffffff;
 }
 
+/* places 'Horiseon' tile in top-left of page */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes color of 'seo' in 'horiseon' */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* formats the nav list */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,29 @@ header nav {
     font-size: 20px;
 }
 
+/* removes bullet points from list */
 header nav ul {
     list-style-type: none;
 }
 
+/* places the nav list in the right of the header */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* makes the links white and without underlines */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* formats paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* formats the background image below the header */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +68,26 @@ p {
     background-position: center;
 }
 
+/* places image left of the content in the section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* places image righ of the content in the section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* formats the contents in the main section of page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* formats the content in the aside portion of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,25 +99,26 @@ p {
     background-color: #2589bd;
 }
 
+/* formats the content in each section in the aside */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* formats the headers of sections in the aside */
 .benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* formats the images in the aside */
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* formats the sections in the main of the page */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,18 +128,18 @@ p {
     color: #ffffff;
 }
 
-
+/* sets the size of images in the sections in the main */
 .main-section img {
     max-height: 200px;
 }
 
-
+/* formats the headers for the sections in the main */
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* formats the footer size and text font and location */
 footer {
     padding: 30px;
     clear: both;
@@ -133,6 +147,7 @@ footer {
     text-align: center;
 }
 
+/* formats the h2 of the footer text font size */
 footer h2 {
     font-size: 20px;
 }
